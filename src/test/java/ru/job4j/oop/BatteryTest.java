@@ -16,7 +16,7 @@ public class BatteryTest {
 
     @Test
     public void whenThis80Another20ThenThisLoadEqual0() {
-        Battery charger = new Battery(80)
+        Battery charger = new Battery(80);
         Battery another = new Battery(20);
         charger.exchange(another);
         int expected = 0;
